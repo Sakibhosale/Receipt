@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reciept</title>
+    <style>
+        body{
+            background-color: #d1d1e0;
+        }
+
+        .brand-logo{
+         width: 100px;
+         display: block;
+         margin: 0 auto;
+        }
+
+
+        .receipt-container{
+            width: 80%;
+            border: 1px solid grey;
+            background-color: #e6f2ff;
+            margin: 2px auto;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 o 10px reg();
+        }
+        .text-center{
+            text-align: center;
+        }
+
+        .border-bottom{
+            border-bottom: 1px dashed gray;
+        }
+
+        .receipt-body{
+            position: relative;
+        }
+        .brand-address{
+            text-align: right;
+        }
+
+        .brand-mobile{
+            text-align: right;
+        }
+        .receipt-title{
+            font-size: 30px;
+            margin: 40px 0px;
+        }
+        .receipt-detail{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            width: 50%;
+            margin: 20px 0;
+            
+        }
+
+        .receipt-detail-key{
+            color: rgb(83, 83, 83);
+            width: 30%;
+        }
+
+        .receipt-detail-value{
+            font-weight: bold;
+            width: 30%;
+        }
+
+        .Accountant-Signature{
+            text-align: right;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        }
+
+        .stamp{
+       width: 150px;
+       position: absolute;
+       right: 0;
+       bottom: -5px;
+       transform: rotate(-10deg);
+        }
+
+        .receipt-footer{
+        padding: 20px;
+        font-size: 20px;
+        background-color: #ff6699;
+        }
+    </style>
+</head>
+<body>
+    <div class="receipt-container">
+        <div class="receipt-header border-bottom">
+    <img src="./logo.png" class="brand-logo">
+    <h2 class="text-center">Class Admission Fees</h2>
+    <p class="brand-address">
+        101, Above from <br>Lotus Hospital, Shewalewadi,<br> Pune-414203</p>
+
+        <p class="brand-mobile">
+            +91-8459125755
+        </p>
+
+</div>
+
+        <div class="receipt-body  border-bottom">
+<h3 class="text-center">Payment Receipt</h3>
+
+<div class="receipt-detail">
+    <div class="receipt-detail-key">
+        Receipt No. :</div>
+    <div class="receipt-detail-value border-bottom">
+        1600401</div>
+</div>
+
+
+<div class="receipt-detail">
+    <div class="receipt-detail-key">
+        Amount:</div>
+
+    <div class="receipt-detail-value border-bottom">
+        7000/-</div>
+</div>
+
+
+<div class="receipt-detail">
+    <div class="receipt-detail-key">
+        Payment Mode :</div>
+
+    <div class="receipt-detail-value border-bottom">
+        UPI</div>
+</div>
+
+
+<div class="receipt-detail">
+    <div class="receipt-detail-key">
+        Patment Date :</div>
+
+    <div class="receipt-detail-value border-bottom">
+        4 jan 2025</div>
+</div>
+
+<img src="rb_8234.png" class="stamp"/>
+
+<p class="Accountant-Signature">
+    Accountant Signature</p>
+
+</div>
+
+<p>This is Computer Generated Receipt and this does not Require any Signature.</p>
+
+<div class="receipt-footer text-center">
+Thank You For Your Payment!!!
+</div>
+
+</div>
+
+</body>
+</html>
